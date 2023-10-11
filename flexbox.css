@@ -1,9 +1,0 @@
-.category {
-    display: flex;
-    flex-direction: column;
-}
-
-.task#task1 {
-    order: 0;
-
-}
