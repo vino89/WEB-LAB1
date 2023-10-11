@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="tick.css">
+	<meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LAB1 TODO list</title>
+	<script src="script.js"></script>
+</head>
+
+
+<body>
+	<h1>WEB Lab1 <br>
+		TODO List</h1>
+	<div class="col">
+		<div class="category" id="HTML">
+			<h2>Catégorie 1 : HTML</h2>
+			<div>
+				<p>
+					<input type="checkbox" id="box task paraph" onchange="changerStyle('task paraph')">
+					<span class="task" id="task paraph" done="false">
+						<b>Paragraphe</b>
+						</br> Ce site permet à son utilisateur de gérer les tâches à
+						accomplir pour le
+						premier labo du cours de WEB 2023 de la filière informatique de la HEIG. Typiquement chaque
+						tâche aura une case qui peut être cochle afin de gérer
+						l'avancée du
+						projet. Un travail qui s'est révélé totalement inutile, étant donné que les cases ne garde
+						pas
+						leur
+						état, ce qui finira par
+						pousser le créateur de la page vers l'alcoolisme, la dépression et finalement... <span
+							class=sad> le développement logiciel.</span>
+					</span>
+				</p>
+			</div>
+			<div>
+				<input type="checkbox" id="box task underline" onchange="changerStyle('task underline')">
+				<u class="task" id="task underline" done="false">
+					<b>Écrire en souligné</b>
+					</br>Parmi les taches les plus simples il
+					est
+					demandé d'avoir au moins
+					un morceau de texte souligné, ce qui est fait en utilisant la balise &lt;u&gt;.
+				</u>
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task bold" onchange="changerStyle('task bold')">
+				<b class="task" id="task bold" done="false">
+					<b>Écrire en gras</b>
+					</br>La seconde tâche abordable, consiste à écrire une partie du texte en gras, à l'aide de
+					balise
+					&lt;b&gt;.
+				</b>
+			</div>
+			<div>
+				<input type="checkbox" id="box task italic" onchange="changerStyle('task italic')">
+				<i class="task" id="task italic" done="false">
+					<b>Écrire en italique </b>
+					</br>Finalement, la troisième tâche format de texte abordable est de présenter une partie du texte
+					en
+					italique en utilisant les balises
+					&lti&gt
+				</i>
+			</div>
+			<div>
+				<input type="checkbox" id="box task link" onchange="changerStyle('task link')">
+				<span class="task" id="task link" done="false">
+					<b>Ajouter un lien</b>
+					</br>La balise &lt;a&gt; est comme un portail magique dans le monde du web. Par exemple un lien
+					menant droit vers un guide d'<a
+						href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox"
+						title="utilisation des checkbox" target="_blank">utilisation des checkbox</a>
+					transporté vers de nouvelles aventures. C'est comme si chaque lien était un billet pour un
+					voyage excitant, sans besoin de faire la queue.
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task script" onchange="changerStyle('task script')">
+				<span class="task" id="task script" done="false">
+					<b>Make script!</b>
+					</br>
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task image" onchange="changerStyle('task image')">
+				<span class="task" id="task image" done="false">
+					<img src="images/image.png" alt="Ajouter une image" />
+					<b>Ajouter une image :)</b>
+				</span>
+			</div>
+		</div>
+		<!--------------------------------------------------------------------------->
+		<div class="category" id="cat_CSS">
+			<h2>Catégorie 2 : CSS</h2>
+			<div>
+				<input type="checkbox" id="box task CSS file" onchange="changerStyle('task CSS file')">
+				<span class="task" id="task CSS file" done="false">
+					<b>Le projet contient au moins un fichier *.css</b>
+					<br>Notre projet HTML doit rester à la pointe de la mode web, donc il est impératif d'avoir au
+					moins
+					un fichier CSS. C'est comme la garde-robe secrète qui donne à nos pages un look d'enfer.
+					Après
+					tout, même les pages web veulent être à la mode, non ?
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task Pclass" onchange="changerStyle('task Pclass')">
+				<span class="task" id="task Pclass" done="false">
+					<b>Ajouter et utiliser au moins 2 pseudo classes </b>
+					<br>Ajouter du style à nos éléments avec au moins deux pseudo-classes est comme donner une
+					cravate
+					élégante à notre HTML. Les pseudo-classes sont comme les accessoires de mode, mais pour les
+					balises HTML. Qui a dit que le web ne pouvait pas être à la mode ?
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task flexbox" onchange="changerStyle('task flexbox')">
+				<span class="task" id="task flexbox" done="false">
+					<b>Le layout Flexbox est utilisé au moins une fois</b>
+					<br>Intégrer au moins une fois le layout Flexbox, c'est comme donner à nos éléments une séance
+					d'entraînement. Ils peuvent se tordre et se plier pour s'adapter à toutes les tailles
+					d'écran.
+					La gymnastique de l'agencement HTML, un entraînement pour les éléments en quête de
+					flexibilité !
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task grid" onchange="changerStyle('task grid')">
+				<span class="task" id="task grid" done="false">
+					<b>Le layout Grid est utilisé au moins une fois</b>
+					<br>Utiliser au moins une fois le Grid Layout, c'est comme créer un plan stratégique pour nos
+					éléments. Imaginez-les comme des troupes bien organisées, alignées sur une grille. Parce que
+					même les éléments HTML ont besoin d'une stratégie de bataille.
+				</span>
+			</div>
+			<div>
+				<span>
+					<b>Déclarer et utiliser au moins 2 classes</b>
+					<br>Intégrer et déclarer au moins deux classes, c'est comme donner une personnalité à nos
+					éléments HTML. Ils peuvent rejoindre des groupes sociaux, comme les divas CSS ou les rebelles
+					JavaScript. Les classes - parce que même le code HTML a son côté social.
+				</span>
+				<ol>
+					<li>
+						<input type="checkbox" id="box task class 1" onchange="changerStyle('task class 1')">
+						<span class="task" id="task class 1" done="false">
+							Première classe
+						</span>
+					</li>
+					<li>
+						<input type="checkbox" id="box task class 2" onchange="changerStyle('task class 2')">
+						<span class="task" id="task class 2" done="false">
+							Seconde classe
+						</span>
+					</li>
+				</ol>
+			</div>
+		</div>
+		<!--------------------------------------------------------------------------->
+		<div class="category" id="Javascript">
+			<h2>Catégorie 3 : Javascript</h2>
+			<div>
+				<input type="checkbox" id="box task js file" onchange="changerStyle('task js file')">
+				<span class="task" id="task js file" done="false">
+					<b>Le site doit contenir au moins 1 fichier *.js</b>
+					<br>Introduire au moins un fichier JavaScript, c'est comme embaucher un magicien pour ajouter une
+					touche d'interactivité. Les fichiers JavaScript sont les magiciens du code, faisant des tours
+					pour impressionner nos visiteurs.
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task var" onchange="changerStyle('task var')">
+				<span class="task" id="task var" done="false">
+					<b>Au moins une variable est utilisée</b>
+					<br>Utiliser au moins une variable, c'est comme donner une identité à nos éléments HTML. Les
+					variables sont les héros méconnus du code, travaillant dans l'ombre pour rendre notre page web
+					plus dynamique. Après tout, même le code a besoin de ses propres héros.
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task function" onchange="changerStyle('task function')">
+				<span class="task" id="task function" done="false">
+					<b>Au moins une fonction est utilisée</b>
+					<br>Introduire au moins une fonction, c'est comme engager un architecte pour construire des
+					structures dans notre code. Les fonctions sont les architectes du code, créant des plans pour
+					organiser et simplifier notre projet. Parce que même le code a besoin d'une bonne architecture.
+				</span>
+			</div>
+		</div>
+		<!--------------------------------------------------------------------------->
+		<div class="category" id="Déploiement">
+			<h2>Catégorie 4 : Déploiement</h2>
+			</span>
+			<div>
+				<input type="checkbox" id="box task git" onchange="changerStyle('task git')">
+				<span class="task" id="task git" done="false">
+					<b>Le projet est sur Github </b>
+					<br>Mettre le projet sur GitHub, c'est comme envoyer notre code dans une aventure épique. GitHub est
+					le lieu où notre code peut rencontrer d'autres codes, partager des histoires, et peut-être même
+					former une équipe de super codes. Après tout, même le code a besoin de vacances.
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task preview" onchange="changerStyle('task preview')">
+				<span class="task" id="task preview" done="false">
+					<b>Un aperçu du site est visible sur Github pages</b>
+					<br>Avoir un aperçu de notre site sur GitHub Pages, c'est comme organiser une exposition virtuelle.
+					Nos pages prennent vie, dansent devant le public virtuel, et peut-être même remportent le prix
+					de la meilleure exposition HTML. Parce que même les sites web aiment un peu de gloire virtuelle.
+				</span>
+			</div>
+		</div>
+		<!--------------------------------------------------------------------------->
+		<div class="category" id="Interactivité">
+			<h2>Catégorie 5 : Interactivité</h2>
+			<div>
+				<input type="checkbox" id="box task interact" onchange="changerStyle('task interact')">
+				<span class="task" id="task interact" done="false">
+					<b>L'utilisateur doit pouvoir intéragir avec la page </b>
+					<br>Permettre à l'utilisateur d'interagir avec le site, c'est comme organiser un bal masqué pour nos
+					pages web. Les boutons dansent, la souris joue, et c'est une fête d'interaction. Parce que même
+					les sites web veulent que les utilisateurs aient une part de plaisir.
+				</span>
+			</div>
+			<div>
+				<input type="checkbox" id="box task fun" onchange="changerStyle('task fun')">
+				<span class="task" id="task fun" done="false">
+					<b>le FUN</b>
+					<br>Si votre site est amusant, c'est comme ajouter un clown au spectacle du code. Des rires
+					éclatent, des sourires apparaissent, et le code devient la star comique. Ou, si votre site
+					enseigne quelque chose de nouveau, c'est comme faire de votre code un professeur brillant. Les
+					utilisateurs apprennent, le savoir se propage, et le code devient une source d'illumination.
+					Après tout, même le code peut être une célébration de rires ou de nouvelles découvertes.
+				</span>
+			</div>
+		</div>
+	</div>
+</body>
+</div>
+
+</html>

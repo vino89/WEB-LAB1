@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-image: url('./images/annie-spratt-Ki0-ea-Hgx4-unsplash.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    background-color: rgb(148, 148, 126);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    charset: "UTF-8";
+}
+
+h2 {
+    color: rgb(8, 89, 21);
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    charset: "UTF-8";
+}
+
+.col {
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+
+    gap: 2%;
+    /*text-decoration: underline;*/
+}
+
+
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+
+}
+
+.task {
+    flex-direction: column;
+}
+
+.task[done="true"] {
+    color: green;
+    align-self: flex-start;
+}
+
+.task:hover {
+    color: rgb(107, 103, 107);
+}
+
+a:visited {
+    color: #fffb00;
+}
+
+.sad {
+    color: rgb(131, 0, 0);
+    font-family: Helvetica serif;
+    font-style: italic;
+}
